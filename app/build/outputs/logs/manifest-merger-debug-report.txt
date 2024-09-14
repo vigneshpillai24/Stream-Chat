@@ -1,0 +1,912 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [androidx.databinding:databinding-adapters:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\abb5f5648288a14112f05a00c8ac5101\transformed\databinding-adapters-8.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-ktx:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c43229b6d172235f0581efaf744c10a3\transformed\databinding-ktx-8.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bb7992abaad376ca386e297b7a055b76\transformed\databinding-runtime-8.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:17:1-58:12
+MERGED from [com.guolindev.permissionx:permissionx:1.7.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f5399934b7de70f998109ca859aa5454\transformed\permissionx-1.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\462a4710ebb7af0b8db3d989162f2f2f\transformed\viewbinding-8.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:17:1-58:12
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\41ab46830080ce2cc0b82d31db41f33a\transformed\coil-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7278e1d4903f2100671655793ea50136\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.getstream:stream-chat-android-offline:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8585d6bed5b201d778cee7717b6cee87\transformed\stream-chat-android-offline-6.4.3\AndroidManifest.xml:17:1-24:12
+MERGED from [io.getstream:stream-chat-android-ui-utils:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\0e2e6e34c2dcfa3fc0b0089d500a32fb\transformed\stream-chat-android-ui-utils-6.4.3\AndroidManifest.xml:17:1-22:12
+MERGED from [io.getstream:stream-chat-android-state:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d1ff4cc740fc5b3eb7a1fb0d07eb2360\transformed\stream-chat-android-state-6.4.3\AndroidManifest.xml:17:1-24:12
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:17:1-54:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\71d183fdfea08d56fbea0ba939082c00\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil-gif:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6f3a302414c8bc7deabd54626ad6109b\transformed\coil-gif-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-video:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e8d6a8617ee4ae4a6860fa11afd58f2e\transformed\coil-video-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\863ea53f4ef7f146223ed71777e369d6\transformed\coil-base-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7476c2b2e4c479fe19f07f531198d115\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.getstream:photoview-dialog:1.0.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5a5944d6d695e84e46efcf93b014f5fd\transformed\photoview-dialog-1.0.1\AndroidManifest.xml:18:1-23:12
+MERGED from [io.getstream:photoview:1.0.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d6661a6ccc0a4642ec81467b0a90fd9a\transformed\photoview-1.0.1\AndroidManifest.xml:18:1-23:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\3625d6201f911bce71d21c4ae5c6cd5b\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\be772c36ff6ff906add4f6c0654de2d2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\00587a33e56db8e1ab1fe97dfda1258f\transformed\recyclerview-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6b577a2740cd9482253806cb7247df41\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ae2b7897e1397dca0a397e74ec2fd361\transformed\fragment-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1724c8e2a2564c2fa06b4fb3d83fa11a\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f823fb3b1a1d02da61c78ff9b6ee867c\transformed\activity-ktx-1.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ba24b833f8b8bedda1521388e1eb69f6\transformed\activity-1.9.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e4da349d8cc565a965b1bb6edac451c0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c0e2f25b9bf2c347757bc20d64a71d4e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\cc293015ddc92fcc1e189ee6d7a18e00\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4caf3323b88e8d2119f32f867575e41f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7920dfc072a21e8ebfe56e2d8348cc45\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\75f249416a539921942216b59bc93c0b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e944562bcd03a332e6b210e5835f34b6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\0a847823f21ddd37d95f331453a02eaf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b40e31c0f0b69acfbf27364a8113ffa9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ab5f8e6a65fd154f8daaec2a212f8b91\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\01717e463097de3961aa549f1d81ec0b\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c5e2193bd9fa35687d1b7ba0699eea7c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4dd2d47736886e83098ae44d312e6f33\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ce22902f306ead73ccd2b2f25675f5c6\transformed\work-runtime-ktx-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\de0d0e35c03d54eab2baced4558cd620\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\57b2bdd80d98a9a732ed93272b389c80\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1d9810be6aba3752fe51d138859473b6\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5b1ba3c2f5d12b83ab922a29ed2ec7cc\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\11c8d9efe1c8e640a6258e5f2ceead21\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bfa07a2595b6fe1b01d24843d985f467\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8b555c9313f5413054858ce2fc2bbdf3\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5ce0a9b30f6a57b46ee6744694781581\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4c0e757078812ac26c1d47091614405b\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1a408991a4db7b0ae216bafeb2c09a79\transformed\lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c5e83e93f4c68e99bab62cbea88df1ca\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\a17770b4db450187f968e50f2b1c3ece\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e88ee2c32be260234c9aa583d8f7e984\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e4d77d8859e229a83647e4bdf3f67cd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e9b6e980a47d9a9bbde1d12b6b5514f\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\60a79183eb611383f51f7eaf5351b9dd\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cb25527e6534c43323aa913fe3920ac\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e7db568ece565bdf1fc1362a133a610\transformed\room-ktx-2.5.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cddac4d7707315095db90a31622eb64\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d22b0d8cca22f4f6a06693d07f65135f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1e3a744360e3617a7dd274234ee9e141\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\537deb872fcdc54edefdf528d0244c06\transformed\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bc5c259ffdab60563ae5c43d92845762\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\3d88165b2657841e575eb8d98a046509\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\73a32e75c4e2596704436e443529a052\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\fd84eb366d38b97dbe27d33bb97595e0\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.getstream:stream-log-android:1.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\030ba892e3f2d17c41ca81979733d24b\transformed\stream-log-android-1.1.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f41a2960492192410b4c7e5784e4ff2a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2f37ad396ee073ab92e877ad52d91585\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\969c328b98d341b3cdeb6d395dd3ba87\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6f9fac3452213e95e447b3c5187de116\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c18ab0e90142192381acee8f7f0bec3c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dc753c5a069f709dcf85e49cd7f2fa34\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:17:1-34:12
+MERGED from [io.getstream:stream-android-push:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e86f3be1848515fb59d89ed7e3dba545\transformed\stream-android-push-1.1.8\AndroidManifest.xml:17:1-25:12
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5eb939d96836ee52b1156079af126740\transformed\sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\af29bcdaa233c58920417d5268f2cce2\transformed\ssp-android-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bebcadacfea6e7ff3c23241d57f598f\transformed\keyboardvisibilityevent-2.3.0\AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:5:5-40:19
+INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:5:5-40:19
+MERGED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:27:5-56:19
+MERGED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:27:5-56:19
+MERGED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:41:5-56:19
+MERGED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:41:5-56:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7278e1d4903f2100671655793ea50136\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7278e1d4903f2100671655793ea50136\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [io.getstream:stream-chat-android-offline:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8585d6bed5b201d778cee7717b6cee87\transformed\stream-chat-android-offline-6.4.3\AndroidManifest.xml:22:5-20
+MERGED from [io.getstream:stream-chat-android-offline:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8585d6bed5b201d778cee7717b6cee87\transformed\stream-chat-android-offline-6.4.3\AndroidManifest.xml:22:5-20
+MERGED from [io.getstream:stream-chat-android-state:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d1ff4cc740fc5b3eb7a1fb0d07eb2360\transformed\stream-chat-android-state-6.4.3\AndroidManifest.xml:22:5-20
+MERGED from [io.getstream:stream-chat-android-state:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d1ff4cc740fc5b3eb7a1fb0d07eb2360\transformed\stream-chat-android-state-6.4.3\AndroidManifest.xml:22:5-20
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:27:5-52:19
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:27:5-52:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\71d183fdfea08d56fbea0ba939082c00\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\71d183fdfea08d56fbea0ba939082c00\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:26:5-36:19
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:26:5-36:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bc5c259ffdab60563ae5c43d92845762\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bc5c259ffdab60563ae5c43d92845762\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [io.getstream:stream-log-android:1.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\030ba892e3f2d17c41ca81979733d24b\transformed\stream-log-android-1.1.4\AndroidManifest.xml:22:5-20
+MERGED from [io.getstream:stream-log-android:1.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\030ba892e3f2d17c41ca81979733d24b\transformed\stream-log-android-1.1.4\AndroidManifest.xml:22:5-20
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:26:5-32:19
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:26:5-32:19
+	android:extractNativeLibs
+		INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:9:9-54
+	android:roundIcon
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:12:9-54
+	tools:targetApi
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:14:9-48
+	android:dataExtractionRules
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:8:9-65
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:6:9-46
+activity#com.mbadevelopers.chatapp.mvvm.splash.SplashActivity
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:exported
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:17:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.mbadevelopers.chatapp.helpers.BaseActivity
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:26:13-49
+activity#com.mbadevelopers.chatapp.mvvm.chat.view.ChatDetailActivity
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:29:13-62
+activity#com.mbadevelopers.chatapp.mvvm.chat.view.ChannelListActivity
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:31:9-35:20
+	android:exported
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:32:13-63
+activity#com.mbadevelopers.chatapp.MainActivity
+ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:36:9-39:20
+	android:exported
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:37:13-41
+uses-sdk
+INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\abb5f5648288a14112f05a00c8ac5101\transformed\databinding-adapters-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\abb5f5648288a14112f05a00c8ac5101\transformed\databinding-adapters-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c43229b6d172235f0581efaf744c10a3\transformed\databinding-ktx-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c43229b6d172235f0581efaf744c10a3\transformed\databinding-ktx-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bb7992abaad376ca386e297b7a055b76\transformed\databinding-runtime-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bb7992abaad376ca386e297b7a055b76\transformed\databinding-runtime-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:21:5-44
+MERGED from [com.guolindev.permissionx:permissionx:1.7.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f5399934b7de70f998109ca859aa5454\transformed\permissionx-1.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.guolindev.permissionx:permissionx:1.7.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f5399934b7de70f998109ca859aa5454\transformed\permissionx-1.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\462a4710ebb7af0b8db3d989162f2f2f\transformed\viewbinding-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\462a4710ebb7af0b8db3d989162f2f2f\transformed\viewbinding-8.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\41ab46830080ce2cc0b82d31db41f33a\transformed\coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\41ab46830080ce2cc0b82d31db41f33a\transformed\coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7278e1d4903f2100671655793ea50136\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7278e1d4903f2100671655793ea50136\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-offline:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8585d6bed5b201d778cee7717b6cee87\transformed\stream-chat-android-offline-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-offline:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8585d6bed5b201d778cee7717b6cee87\transformed\stream-chat-android-offline-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-ui-utils:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\0e2e6e34c2dcfa3fc0b0089d500a32fb\transformed\stream-chat-android-ui-utils-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-ui-utils:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\0e2e6e34c2dcfa3fc0b0089d500a32fb\transformed\stream-chat-android-ui-utils-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-state:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d1ff4cc740fc5b3eb7a1fb0d07eb2360\transformed\stream-chat-android-state-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-state:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d1ff4cc740fc5b3eb7a1fb0d07eb2360\transformed\stream-chat-android-state-6.4.3\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\71d183fdfea08d56fbea0ba939082c00\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\71d183fdfea08d56fbea0ba939082c00\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-gif:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6f3a302414c8bc7deabd54626ad6109b\transformed\coil-gif-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-gif:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6f3a302414c8bc7deabd54626ad6109b\transformed\coil-gif-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-video:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e8d6a8617ee4ae4a6860fa11afd58f2e\transformed\coil-video-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-video:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e8d6a8617ee4ae4a6860fa11afd58f2e\transformed\coil-video-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\863ea53f4ef7f146223ed71777e369d6\transformed\coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\863ea53f4ef7f146223ed71777e369d6\transformed\coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7476c2b2e4c479fe19f07f531198d115\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7476c2b2e4c479fe19f07f531198d115\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.getstream:photoview-dialog:1.0.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5a5944d6d695e84e46efcf93b014f5fd\transformed\photoview-dialog-1.0.1\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:photoview-dialog:1.0.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5a5944d6d695e84e46efcf93b014f5fd\transformed\photoview-dialog-1.0.1\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:photoview:1.0.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d6661a6ccc0a4642ec81467b0a90fd9a\transformed\photoview-1.0.1\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:photoview:1.0.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d6661a6ccc0a4642ec81467b0a90fd9a\transformed\photoview-1.0.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\3625d6201f911bce71d21c4ae5c6cd5b\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\3625d6201f911bce71d21c4ae5c6cd5b\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\be772c36ff6ff906add4f6c0654de2d2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\be772c36ff6ff906add4f6c0654de2d2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\00587a33e56db8e1ab1fe97dfda1258f\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\00587a33e56db8e1ab1fe97dfda1258f\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6b577a2740cd9482253806cb7247df41\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6b577a2740cd9482253806cb7247df41\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ae2b7897e1397dca0a397e74ec2fd361\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ae2b7897e1397dca0a397e74ec2fd361\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1724c8e2a2564c2fa06b4fb3d83fa11a\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1724c8e2a2564c2fa06b4fb3d83fa11a\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:21:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f823fb3b1a1d02da61c78ff9b6ee867c\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f823fb3b1a1d02da61c78ff9b6ee867c\transformed\activity-ktx-1.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ba24b833f8b8bedda1521388e1eb69f6\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ba24b833f8b8bedda1521388e1eb69f6\transformed\activity-1.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e4da349d8cc565a965b1bb6edac451c0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e4da349d8cc565a965b1bb6edac451c0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c0e2f25b9bf2c347757bc20d64a71d4e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c0e2f25b9bf2c347757bc20d64a71d4e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\cc293015ddc92fcc1e189ee6d7a18e00\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\cc293015ddc92fcc1e189ee6d7a18e00\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4caf3323b88e8d2119f32f867575e41f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4caf3323b88e8d2119f32f867575e41f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7920dfc072a21e8ebfe56e2d8348cc45\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7920dfc072a21e8ebfe56e2d8348cc45\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\75f249416a539921942216b59bc93c0b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\75f249416a539921942216b59bc93c0b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e944562bcd03a332e6b210e5835f34b6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e944562bcd03a332e6b210e5835f34b6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\0a847823f21ddd37d95f331453a02eaf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\0a847823f21ddd37d95f331453a02eaf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b40e31c0f0b69acfbf27364a8113ffa9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b40e31c0f0b69acfbf27364a8113ffa9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ab5f8e6a65fd154f8daaec2a212f8b91\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ab5f8e6a65fd154f8daaec2a212f8b91\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\01717e463097de3961aa549f1d81ec0b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\01717e463097de3961aa549f1d81ec0b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c5e2193bd9fa35687d1b7ba0699eea7c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c5e2193bd9fa35687d1b7ba0699eea7c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4dd2d47736886e83098ae44d312e6f33\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4dd2d47736886e83098ae44d312e6f33\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ce22902f306ead73ccd2b2f25675f5c6\transformed\work-runtime-ktx-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ce22902f306ead73ccd2b2f25675f5c6\transformed\work-runtime-ktx-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\de0d0e35c03d54eab2baced4558cd620\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\de0d0e35c03d54eab2baced4558cd620\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\57b2bdd80d98a9a732ed93272b389c80\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\57b2bdd80d98a9a732ed93272b389c80\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1d9810be6aba3752fe51d138859473b6\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1d9810be6aba3752fe51d138859473b6\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5b1ba3c2f5d12b83ab922a29ed2ec7cc\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5b1ba3c2f5d12b83ab922a29ed2ec7cc\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\11c8d9efe1c8e640a6258e5f2ceead21\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\11c8d9efe1c8e640a6258e5f2ceead21\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bfa07a2595b6fe1b01d24843d985f467\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bfa07a2595b6fe1b01d24843d985f467\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8b555c9313f5413054858ce2fc2bbdf3\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8b555c9313f5413054858ce2fc2bbdf3\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5ce0a9b30f6a57b46ee6744694781581\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5ce0a9b30f6a57b46ee6744694781581\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4c0e757078812ac26c1d47091614405b\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4c0e757078812ac26c1d47091614405b\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1a408991a4db7b0ae216bafeb2c09a79\transformed\lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1a408991a4db7b0ae216bafeb2c09a79\transformed\lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c5e83e93f4c68e99bab62cbea88df1ca\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c5e83e93f4c68e99bab62cbea88df1ca\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\a17770b4db450187f968e50f2b1c3ece\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\a17770b4db450187f968e50f2b1c3ece\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e88ee2c32be260234c9aa583d8f7e984\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e88ee2c32be260234c9aa583d8f7e984\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e4d77d8859e229a83647e4bdf3f67cd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e4d77d8859e229a83647e4bdf3f67cd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e9b6e980a47d9a9bbde1d12b6b5514f\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e9b6e980a47d9a9bbde1d12b6b5514f\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\60a79183eb611383f51f7eaf5351b9dd\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\60a79183eb611383f51f7eaf5351b9dd\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cb25527e6534c43323aa913fe3920ac\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cb25527e6534c43323aa913fe3920ac\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e7db568ece565bdf1fc1362a133a610\transformed\room-ktx-2.5.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e7db568ece565bdf1fc1362a133a610\transformed\room-ktx-2.5.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cddac4d7707315095db90a31622eb64\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cddac4d7707315095db90a31622eb64\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d22b0d8cca22f4f6a06693d07f65135f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d22b0d8cca22f4f6a06693d07f65135f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1e3a744360e3617a7dd274234ee9e141\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1e3a744360e3617a7dd274234ee9e141\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\537deb872fcdc54edefdf528d0244c06\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\537deb872fcdc54edefdf528d0244c06\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bc5c259ffdab60563ae5c43d92845762\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bc5c259ffdab60563ae5c43d92845762\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\3d88165b2657841e575eb8d98a046509\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\3d88165b2657841e575eb8d98a046509\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\73a32e75c4e2596704436e443529a052\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\73a32e75c4e2596704436e443529a052\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\fd84eb366d38b97dbe27d33bb97595e0\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\fd84eb366d38b97dbe27d33bb97595e0\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.getstream:stream-log-android:1.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\030ba892e3f2d17c41ca81979733d24b\transformed\stream-log-android-1.1.4\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-log-android:1.1.4] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\030ba892e3f2d17c41ca81979733d24b\transformed\stream-log-android-1.1.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f41a2960492192410b4c7e5784e4ff2a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f41a2960492192410b4c7e5784e4ff2a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2f37ad396ee073ab92e877ad52d91585\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2f37ad396ee073ab92e877ad52d91585\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\969c328b98d341b3cdeb6d395dd3ba87\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\969c328b98d341b3cdeb6d395dd3ba87\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6f9fac3452213e95e447b3c5187de116\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6f9fac3452213e95e447b3c5187de116\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c18ab0e90142192381acee8f7f0bec3c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c18ab0e90142192381acee8f7f0bec3c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dc753c5a069f709dcf85e49cd7f2fa34\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dc753c5a069f709dcf85e49cd7f2fa34\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:21:5-44
+MERGED from [io.getstream:stream-android-push:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e86f3be1848515fb59d89ed7e3dba545\transformed\stream-android-push-1.1.8\AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-android-push:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e86f3be1848515fb59d89ed7e3dba545\transformed\stream-android-push-1.1.8\AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5eb939d96836ee52b1156079af126740\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5eb939d96836ee52b1156079af126740\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\af29bcdaa233c58920417d5268f2cce2\transformed\ssp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\af29bcdaa233c58920417d5268f2cce2\transformed\ssp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bebcadacfea6e7ff3c23241d57f598f\transformed\keyboardvisibilityevent-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bebcadacfea6e7ff3c23241d57f598f\transformed\keyboardvisibilityevent-2.3.0\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Bala\ChatApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:23:5-79
+MERGED from [io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:22:5-79
+MERGED from [io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:22:5-79
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:23:5-79
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:23:5-79
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:23:5-79
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:23:5-79
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:5-79
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:23:5-79
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:23:5-79
+MERGED from [io.getstream:stream-android-push:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e86f3be1848515fb59d89ed7e3dba545\transformed\stream-android-push-1.1.8\AndroidManifest.xml:22:5-79
+MERGED from [io.getstream:stream-android-push:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e86f3be1848515fb59d89ed7e3dba545\transformed\stream-android-push-1.1.8\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:25:5-66
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:25:22-63
+provider#androidx.startup.InitializationProvider
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:28:9-36:20
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:27:9-35:20
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:27:9-35:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:32:13-31
+	android:authorities
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:30:13-68
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:29:13-67
+meta-data#io.getstream.chat.android.ui.initializer.ChatUIInitializer
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:33:13-35:52
+	android:value
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:35:17-49
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:34:17-90
+activity#io.getstream.chat.android.ui.feature.gallery.AttachmentGalleryActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:38:9-41:65
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:40:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:41:13-62
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:39:13-98
+activity#io.getstream.chat.android.ui.feature.gallery.AttachmentMediaActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:42:9-45:61
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:44:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:45:13-58
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:43:13-96
+activity#io.getstream.chat.android.ui.feature.gallery.AttachmentActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:46:9-49:66
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:48:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:49:13-63
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:47:13-91
+activity#io.getstream.chat.android.ui.feature.channels.ChannelListActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:50:9-52:40
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:51:13-93
+activity#io.getstream.chat.android.ui.feature.messages.MessageListActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:54:13-93
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:22:5-24:38
+	android:maxSdkVersion
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:24:9-35
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:23:9-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:25:5-27:38
+	android:maxSdkVersion
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:27:9-35
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:26:9-65
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:28:22-73
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:30:22-72
+queries
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:32:5-39:15
+intent#action:name:android.media.action.VIDEO_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:33:9-35:18
+action#android.media.action.VIDEO_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:34:21-70
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:36:9-38:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:37:13-73
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:37:21-70
+activity#io.getstream.chat.android.ui.common.feature.documents.AttachmentDocumentActivity
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:42:9-45:75
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:44:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:45:13-72
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:43:13-108
+provider#io.getstream.chat.android.ui.common.StreamFileProvider
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:47:9-55:20
+	android:grantUriPermissions
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:51:13-47
+	android:authorities
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:48:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:52:13-54:60
+	android:resource
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:54:17-57
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:53:17-67
+uses-permission#android.permission.INTERNET
+ADDED from [io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:23:5-67
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:24:5-67
+MERGED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:24:5-67
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:24:5-67
+MERGED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:24:5-67
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:24:5-67
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:24:5-67
+MERGED from [io.getstream:stream-android-push:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e86f3be1848515fb59d89ed7e3dba545\transformed\stream-android-push-1.1.8\AndroidManifest.xml:23:5-67
+MERGED from [io.getstream:stream-android-push:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e86f3be1848515fb59d89ed7e3dba545\transformed\stream-android-push-1.1.8\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:25:22-74
+provider#io.getstream.android.push.delegate.PushDelegateProvider
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:28:9-36:20
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:27:9-31:34
+MERGED from [io.getstream:stream-android-push-delegate:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d238ca8dafb919f179c4ebc42d9285c5\transformed\stream-android-push-delegate-1.1.8\AndroidManifest.xml:27:9-31:34
+	tools:node
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:32:13-31
+	android:authorities
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:30:13-77
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:29:13-83
+meta-data#io.getstream.chat.android.client.notifications.ChatPushDelegate
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:33:13-35:74
+	android:value
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:35:17-71
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:34:17-95
+receiver#io.getstream.chat.android.client.receivers.NotificationMessageReceiver
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:38:9-46:20
+	android:enabled
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:40:13-35
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:39:13-98
+intent-filter#action:name:io.getstream.chat.android.READ+action:name:io.getstream.chat.android.REPLY
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:42:13-45:29
+action#io.getstream.chat.android.READ
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:43:17-73
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:43:25-70
+action#io.getstream.chat.android.REPLY
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:44:17-74
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:44:25-71
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:48:9-51:34
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+	tools:node
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:51:13-31
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+	android:foregroundServiceType
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:50:13-57
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:49:13-81
+meta-data#io.getstream.android.push.permissions.PushPermissionsInitializer
+ADDED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:32:13-34:52
+	android:value
+		ADDED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:34:17-49
+	android:name
+		ADDED from [io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:33:17-96
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:22-74
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.mbadevelopers.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.mbadevelopers.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

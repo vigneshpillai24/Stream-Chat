@@ -1,0 +1,5 @@
+com.mbadevelopers.chatapp.test.app-core-1.6.1-0 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e43809452b197fd56ad80e296f1d967a\transformed\core-1.6.1\res
+com.mbadevelopers.chatapp.test.app-androidTest-1 D:\Bala\ChatApp\app\build\generated\res\resValues\androidTest\debug
+com.mbadevelopers.chatapp.test.app-mergeDebugAndroidTestResources-2 D:\Bala\ChatApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.mbadevelopers.chatapp.test.app-mergeDebugAndroidTestResources-3 D:\Bala\ChatApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.mbadevelopers.chatapp.test.app-debugAndroidTest-4 D:\Bala\ChatApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

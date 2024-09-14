@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mvvm.chat.view.ChatDetailActivity">
+
+        <io.getstream.chat.android.ui.feature.messages.header.MessageListHeaderView
+            android:id="@+id/messageListHeaderView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/MessageListHeaderStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <io.getstream.chat.android.ui.feature.messages.list.MessageListView
+            android:id="@+id/messageListView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            style="@style/MessageListStyle"
+            app:layout_constraintBottom_toTopOf="@+id/messageComposerView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messageListHeaderView" />
+
+        <io.getstream.chat.android.ui.feature.messages.composer.MessageComposerView
+            android:id="@+id/messageComposerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/MessageListComposerStyle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

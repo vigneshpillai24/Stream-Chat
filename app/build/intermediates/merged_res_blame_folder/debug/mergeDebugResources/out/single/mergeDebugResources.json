@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\layout_activity_chat_list.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\layout\\activity_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\font_font_bold.otf.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\font\\font_bold.otf"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\font_font_semibold.otf.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\font\\font_semibold.otf"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\drawable_ic_logo.png.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\drawable\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\font_font_regular.otf.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\font\\font_regular.otf"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\drawable_ic_left_arrow.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\drawable\\ic_left_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\layout_layout_progress_bar.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\layout\\layout_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\drawable_ic_back_arrow.png.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\drawable\\ic_back_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\font_font_medium.otf.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\font\\font_medium.otf"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\anim_splash_fade_in.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\anim\\splash_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.mbadevelopers.chatapp-debug-62:/layout_activity_chat_list.xml.flat",
+        "source": "com.mbadevelopers.chatapp-main-64:/layout/activity_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-debug-62:\\layout_activity_chat_detail.xml.flat",
+        "source": "C:\\Users\\Bala Vignessh\\AppData\\Local\\Android\\Sdk\\daemon\\8.7\\com.mbadevelopers.chatapp-main-64:\\layout\\activity_chat_detail.xml"
+    }
+]

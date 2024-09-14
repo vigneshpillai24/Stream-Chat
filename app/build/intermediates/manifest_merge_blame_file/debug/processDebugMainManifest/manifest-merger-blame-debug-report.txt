@@ -1,0 +1,527 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mbadevelopers.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:23:5-79
+11-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:23:22-76
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:24:5-71
+12-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:24:22-68
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:25:5-66
+13-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:25:22-63
+14    <uses-permission
+14-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:22:5-24:38
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:23:9-64
+16        android:maxSdkVersion="32" />
+16-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:24:9-35
+17    <uses-permission
+17-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:25:5-27:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:26:9-65
+19        android:maxSdkVersion="29" />
+19-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:27:9-35
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:28:5-76
+20-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:28:22-73
+21    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+21-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:29:5-75
+21-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:29:22-72
+22    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+22-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:30:5-75
+22-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:30:22-72
+23
+24    <queries>
+24-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:32:5-39:15
+25        <intent>
+25-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:33:9-35:18
+26            <action android:name="android.media.action.VIDEO_CAPTURE" />
+26-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:34:13-73
+26-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:34:21-70
+27        </intent>
+28        <intent>
+28-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:36:9-38:18
+29            <action android:name="android.media.action.IMAGE_CAPTURE" />
+29-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:37:13-73
+29-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:37:21-70
+30        </intent>
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->[io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:23:5-67
+33-->[io.getstream:stream-android-push-permissions-snackbar:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\AndroidManifest.xml:23:22-64
+34    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+34-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:25:5-77
+34-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:25:22-74
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+35-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:22-65
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+36-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:22-78
+37    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+37-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+37-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:22-74
+38
+39    <permission
+39-->[androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+40        android:name="com.mbadevelopers.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.mbadevelopers.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:5:5-40:19
+46        android:name="com.mbadevelopers.chatapp.helpers.AppController"
+46-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:6:9-46
+47        android:allowBackup="true"
+47-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:7:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.13.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+49        android:dataExtractionRules="@xml/data_extraction_rules"
+49-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:8:9-65
+50        android:debuggable="true"
+51        android:extractNativeLibs="false"
+52        android:fullBackupContent="@xml/backup_rules"
+52-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:9:9-54
+53        android:icon="@mipmap/ic_launcher"
+53-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:10:9-43
+54        android:label="@string/app_name"
+54-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:11:9-41
+55        android:roundIcon="@mipmap/ic_launcher_round"
+55-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:12:9-54
+56        android:supportsRtl="true"
+56-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:13:9-35
+57        android:testOnly="true"
+58        android:theme="@style/AppTheme.ChatApp" >
+58-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:14:9-48
+59        <activity
+59-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:16:9-24:20
+60            android:name="com.mbadevelopers.chatapp.mvvm.splash.SplashActivity"
+60-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:17:13-55
+61            android:exported="true" >
+61-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:18:13-36
+62            <intent-filter>
+62-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:19:13-23:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:20:17-69
+63-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:20:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:22:17-77
+65-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:22:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:25:9-27:40
+69            android:name="com.mbadevelopers.chatapp.helpers.BaseActivity"
+69-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:26:13-49
+70            android:exported="false" />
+70-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:27:13-37
+71        <activity
+71-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:28:9-30:40
+72            android:name="com.mbadevelopers.chatapp.mvvm.chat.view.ChatDetailActivity"
+72-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:29:13-62
+73            android:exported="false" />
+73-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:30:13-37
+74        <activity
+74-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:31:9-35:20
+75            android:name="com.mbadevelopers.chatapp.mvvm.chat.view.ChannelListActivity"
+75-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:32:13-63
+76            android:exported="false" >
+76-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:33:13-37
+77        </activity>
+78        <activity
+78-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:36:9-39:20
+79            android:name="com.mbadevelopers.chatapp.MainActivity"
+79-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:37:13-41
+80            android:exported="true" >
+80-->D:\Bala\ChatApp\app\src\main\AndroidManifest.xml:38:13-36
+81        </activity>
+82
+83        <provider
+83-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:28:9-36:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:29:13-67
+85            android:authorities="com.mbadevelopers.chatapp.androidx-startup"
+85-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:30:13-68
+86            android:exported="false" >
+86-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:31:13-37
+87            <meta-data
+87-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:33:13-35:52
+88                android:name="io.getstream.chat.android.ui.initializer.ChatUIInitializer"
+88-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:34:17-90
+89                android:value="androidx.startup" />
+89-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:35:17-49
+90            <meta-data
+90-->[io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:32:13-34:52
+91                android:name="io.getstream.android.push.permissions.PushPermissionsInitializer"
+91-->[io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:33:17-96
+92                android:value="androidx.startup" />
+92-->[io.getstream:stream-android-push-permissions:1.1.8] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\AndroidManifest.xml:34:17-49
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+97                android:name="androidx.work.WorkManagerInitializer"
+97-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+98                android:value="androidx.startup" />
+98-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+99            <meta-data
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+101                android:value="androidx.startup" />
+101-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+104                android:value="androidx.startup" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+105        </provider>
+106
+107        <activity
+107-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:38:9-41:65
+108            android:name="io.getstream.chat.android.ui.feature.gallery.AttachmentGalleryActivity"
+108-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:39:13-98
+109            android:exported="false"
+109-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:40:13-37
+110            android:theme="@style/StreamUi.AttachmentGallery" />
+110-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:41:13-62
+111        <activity
+111-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:42:9-45:61
+112            android:name="io.getstream.chat.android.ui.feature.gallery.AttachmentMediaActivity"
+112-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:43:13-96
+113            android:exported="false"
+113-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:44:13-37
+114            android:theme="@style/StreamUi.MediaActivity" />
+114-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:45:13-58
+115        <activity
+115-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:46:9-49:66
+116            android:name="io.getstream.chat.android.ui.feature.gallery.AttachmentActivity"
+116-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:47:13-91
+117            android:exported="false"
+117-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:48:13-37
+118            android:theme="@style/StreamUi.AttachmentActivity" />
+118-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:49:13-63
+119        <activity
+119-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:50:9-52:40
+120            android:name="io.getstream.chat.android.ui.feature.channels.ChannelListActivity"
+120-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:51:13-93
+121            android:exported="false" />
+121-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:52:13-37
+122        <activity
+122-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:53:9-55:40
+123            android:name="io.getstream.chat.android.ui.feature.messages.MessageListActivity"
+123-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:54:13-93
+124            android:exported="false" />
+124-->[io.getstream:stream-chat-android-ui-components:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\AndroidManifest.xml:55:13-37
+125        <activity
+125-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:42:9-45:75
+126            android:name="io.getstream.chat.android.ui.common.feature.documents.AttachmentDocumentActivity"
+126-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:43:13-108
+127            android:exported="false"
+127-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:44:13-37
+128            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+128-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:45:13-72
+129
+130        <provider
+130-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:47:9-55:20
+131            android:name="io.getstream.chat.android.ui.common.StreamFileProvider"
+131-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:48:13-82
+132            android:authorities="com.mbadevelopers.chatapp.streamfileprovider"
+132-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:49:13-70
+133            android:exported="false"
+133-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:50:13-37
+134            android:grantUriPermissions="true" >
+134-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:51:13-47
+135            <meta-data
+135-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:52:13-54:60
+136                android:name="android.support.FILE_PROVIDER_PATHS"
+136-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:53:17-67
+137                android:resource="@xml/stream_filepaths" />
+137-->[io.getstream:stream-chat-android-ui-common:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\AndroidManifest.xml:54:17-57
+138        </provider>
+139        <provider
+139-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:28:9-36:20
+140            android:name="io.getstream.android.push.delegate.PushDelegateProvider"
+140-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:29:13-83
+141            android:authorities="com.mbadevelopers.chatapp.io.getstream.android.push"
+141-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:30:13-77
+142            android:exported="false" >
+142-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:31:13-37
+143            <meta-data
+143-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:33:13-35:74
+144                android:name="io.getstream.chat.android.client.notifications.ChatPushDelegate"
+144-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:34:17-95
+145                android:value="io.getstream.android.push.PushDelegate" />
+145-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:35:17-71
+146        </provider>
+147
+148        <receiver
+148-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:38:9-46:20
+149            android:name="io.getstream.chat.android.client.receivers.NotificationMessageReceiver"
+149-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:39:13-98
+150            android:enabled="true"
+150-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:40:13-35
+151            android:exported="false" >
+151-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:41:13-37
+152            <intent-filter>
+152-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:42:13-45:29
+153                <action android:name="io.getstream.chat.android.READ" />
+153-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:43:17-73
+153-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:43:25-70
+154                <action android:name="io.getstream.chat.android.REPLY" />
+154-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:44:17-74
+154-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:44:25-71
+155            </intent-filter>
+156        </receiver>
+157
+158        <service
+158-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:48:9-51:34
+159            android:name="androidx.work.impl.foreground.SystemForegroundService"
+159-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:49:13-81
+160            android:directBootAware="false"
+160-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+161            android:enabled="@bool/enable_system_foreground_service_default"
+161-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+162            android:exported="false"
+162-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+163            android:foregroundServiceType="shortService" />
+163-->[io.getstream:stream-chat-android-client:6.4.3] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\AndroidManifest.xml:50:13-57
+164        <service
+164-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+165            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+165-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+166            android:directBootAware="false"
+166-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+167            android:enabled="@bool/enable_system_alarm_service_default"
+167-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+168            android:exported="false" />
+168-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+169        <service
+169-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+170            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+170-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+171            android:directBootAware="false"
+171-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+172            android:enabled="@bool/enable_system_job_service_default"
+172-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+173            android:exported="true"
+173-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+174            android:permission="android.permission.BIND_JOB_SERVICE" />
+174-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+175
+176        <receiver
+176-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+177            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+177-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+178            android:directBootAware="false"
+178-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+179            android:enabled="true"
+179-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+180            android:exported="false" />
+180-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+181        <receiver
+181-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+182            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+182-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+183            android:directBootAware="false"
+183-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+184            android:enabled="false"
+184-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+185            android:exported="false" >
+185-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+186            <intent-filter>
+186-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+187                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+187-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+187-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+188                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+188-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+188-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+189            </intent-filter>
+190        </receiver>
+191        <receiver
+191-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+192            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+192-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+193            android:directBootAware="false"
+193-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+194            android:enabled="false"
+194-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+195            android:exported="false" >
+195-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+196            <intent-filter>
+196-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+197                <action android:name="android.intent.action.BATTERY_OKAY" />
+197-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+197-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+198                <action android:name="android.intent.action.BATTERY_LOW" />
+198-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+198-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+199            </intent-filter>
+200        </receiver>
+201        <receiver
+201-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+202            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+202-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+203            android:directBootAware="false"
+203-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+204            android:enabled="false"
+204-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+205            android:exported="false" >
+205-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+206            <intent-filter>
+206-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+207                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+207-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+207-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+208                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+208-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+208-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+209            </intent-filter>
+210        </receiver>
+211        <receiver
+211-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+212            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+212-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+213            android:directBootAware="false"
+213-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+214            android:enabled="false"
+214-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+215            android:exported="false" >
+215-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+216            <intent-filter>
+216-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+217                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+217-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+217-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+218            </intent-filter>
+219        </receiver>
+220        <receiver
+220-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+221            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+221-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+222            android:directBootAware="false"
+222-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+223            android:enabled="false"
+223-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+224            android:exported="false" >
+224-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+225            <intent-filter>
+225-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+226                <action android:name="android.intent.action.BOOT_COMPLETED" />
+226-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
+226-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
+227                <action android:name="android.intent.action.TIME_SET" />
+227-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+227-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+228                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+228-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+228-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+229            </intent-filter>
+230        </receiver>
+231        <receiver
+231-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+232            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+232-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+233            android:directBootAware="false"
+233-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+234            android:enabled="@bool/enable_system_alarm_service_default"
+234-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+235            android:exported="false" >
+235-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+236            <intent-filter>
+236-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+237                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+237-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+237-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+238            </intent-filter>
+239        </receiver>
+240        <receiver
+240-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+241            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+241-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+243            android:enabled="true"
+243-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+244            android:exported="true"
+244-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+245            android:permission="android.permission.DUMP" >
+245-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+246            <intent-filter>
+246-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+247                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+247-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+247-->[androidx.work:work-runtime:2.8.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+248            </intent-filter>
+249        </receiver>
+250
+251        <service
+251-->[androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+252            android:name="androidx.room.MultiInstanceInvalidationService"
+252-->[androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+253            android:directBootAware="true"
+253-->[androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+254            android:exported="false" />
+254-->[androidx.room:room-runtime:2.5.2] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+255
+256        <receiver
+256-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+257            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+258            android:directBootAware="false"
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+259            android:enabled="true"
+259-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+260            android:exported="true"
+260-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+261            android:permission="android.permission.DUMP" >
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+262            <intent-filter>
+262-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+263                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+264            </intent-filter>
+265            <intent-filter>
+265-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+266                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+266-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+266-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+267            </intent-filter>
+268            <intent-filter>
+268-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+269                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+269-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+269-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+270            </intent-filter>
+271            <intent-filter>
+271-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+272                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+272-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+272-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+273            </intent-filter>
+274        </receiver>
+275    </application>
+276
+277</manifest>

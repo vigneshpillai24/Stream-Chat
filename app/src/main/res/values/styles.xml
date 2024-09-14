@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextStyleStartSemiBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/font_semibold</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/txt_primary_color</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="ChannelListStyle">
+        <item name="streamUiChannelsItemSeparatorDrawable">@color/bg_primary_color</item>
+        <item name="streamUiForegroundLayoutColor">@color/bg_secondary_color</item>
+        <item name="streamUiBackgroundLayoutColor">@color/bg_secondary_color</item>
+        <item name="streamUiChannelListBackgroundColor">@color/bg_secondary_color</item>
+        <item name="streamUiChannelTitleTextColor">@color/txt_primary_color</item>
+        <item name="streamUiLastMessageDateTextColor">@color/txt_msg_date_color</item>
+        <item name="streamUiLastMessageTextColor">@color/txt_msg_date_color</item>
+        <item name="streamUiUnreadMessageCounterTextColor">@color/txt_primary_color</item>
+    </style>
+
+    <style name="MessageListHeaderStyle">
+        <item name="streamUiMessageListHeaderBackButtonIcon">@drawable/ic_back_arrow</item>
+        <item name="streamUiMessageListHeaderBackground">@color/bg_secondary_color</item>
+        <item name="streamUiMessageListHeaderBackButtonBadgeBackgroundColor">@color/bg_primary_color</item>
+        <item name="streamUiMessageListHeaderTitleTextColor">@color/txt_primary_color</item>
+        <item name="streamUiMessageListHeaderDefaultLabelTextColor">@color/txt_primary_color</item>
+    </style>
+
+    <style name="MessageListStyle">
+        <item name="streamUiBackgroundColor">@color/bg_chat_color</item>
+        <item name="streamUiMessageBackgroundColorMine">@color/bg_chat_color_mine</item>
+        <item name="streamUiMessageBackgroundColorTheirs">@color/bg_chat_color_others</item>
+        <item name="streamUiMessageTextColorMine">@color/txt_chat_color_mine</item>
+        <item name="streamUiMessageTextColorTheirs">@color/txt_chat_color_others</item>
+    </style>
+
+    <style name="MessageListComposerStyle">
+        <item name="streamUiBackgroundColor">@color/bg_secondary_color</item>
+        <item name="streamUiMessageComposerMentionSuggestionsBackgroundColor">@color/bg_secondary_color</item>
+        <item name="streamUiMessageComposerMessageReplyBackgroundColor">@color/bg_secondary_color</item>
+        <item name="streamUiMessageComposerCommandSuggestionsBackgroundColor">@color/bg_secondary_color</item>
+        <item name="streamUiMessageComposerAttachmentsPickerBackgroundColor">@color/bg_secondary_color</item>
+        <item name="streamUiMessageComposerMessageInputVideoAttachmentIconBackgroundColor">@color/bg_secondary_color</item>
+        <item name="streamUiMessageComposerAttachmentsButtonIconTintList">@color/bg_primary_color</item>
+        <item name="streamUiMessageComposerSendMessageButtonIconTintList">@color/bg_primary_color</item>
+        <item name="streamUiMessageComposerAudioRecordingButtonIconTintList">@color/bg_primary_color</item>
+        <item name="streamUiMessageComposerCommandsButtonIconTintList">@color/bg_primary_color</item>
+        <item name="streamUiMessageComposerMessageInputTextColor">@color/txt_primary_color</item>
+    </style>
+</resources>

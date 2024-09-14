@@ -1,0 +1,65 @@
+com.mbadevelopers.chatapp-recyclerview-1.3.1-0 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\00587a33e56db8e1ab1fe97dfda1258f\transformed\recyclerview-1.3.1\res
+com.mbadevelopers.chatapp-stream-log-android-1.1.4-1 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\030ba892e3f2d17c41ca81979733d24b\transformed\stream-log-android-1.1.4\res
+com.mbadevelopers.chatapp-stream-chat-android-ui-utils-6.4.3-2 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\0e2e6e34c2dcfa3fc0b0089d500a32fb\transformed\stream-chat-android-ui-utils-6.4.3\res
+com.mbadevelopers.chatapp-savedstate-1.2.1-3 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\11c8d9efe1c8e640a6258e5f2ceead21\transformed\savedstate-1.2.1\res
+com.mbadevelopers.chatapp-fragment-ktx-1.6.1-4 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1724c8e2a2564c2fa06b4fb3d83fa11a\transformed\fragment-ktx-1.6.1\res
+com.mbadevelopers.chatapp-lifecycle-livedata-ktx-2.6.2-5 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1a408991a4db7b0ae216bafeb2c09a79\transformed\lifecycle-livedata-ktx-2.6.2\res
+com.mbadevelopers.chatapp-sqlite-framework-2.3.1-6 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\1e3a744360e3617a7dd274234ee9e141\transformed\sqlite-framework-2.3.1\res
+com.mbadevelopers.chatapp-core-1.13.1-7 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\23f32ac793dc6e493c425af20818f926\transformed\core-1.13.1\res
+com.mbadevelopers.chatapp-core-ktx-1.13.1-8 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cb25527e6534c43323aa913fe3920ac\transformed\core-ktx-1.13.1\res
+com.mbadevelopers.chatapp-runtime-release-9 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\2cddac4d7707315095db90a31622eb64\transformed\runtime-release\res
+com.mbadevelopers.chatapp-appcompat-1.7.0-10 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\3625d6201f911bce71d21c4ae5c6cd5b\transformed\appcompat-1.7.0\res
+com.mbadevelopers.chatapp-work-runtime-2.8.1-11 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\46e434d98ba8a8cd51124b259684204f\transformed\work-runtime-2.8.1\res
+com.mbadevelopers.chatapp-emoji2-1.3.0-12 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\47fda8e683d45a33c28418a5997c0820\transformed\emoji2-1.3.0\res
+com.mbadevelopers.chatapp-lifecycle-runtime-ktx-2.6.2-13 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4c0e757078812ac26c1d47091614405b\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.mbadevelopers.chatapp-coordinatorlayout-1.1.0-14 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4caf3323b88e8d2119f32f867575e41f\transformed\coordinatorlayout-1.1.0\res
+com.mbadevelopers.chatapp-media-1.0.0-15 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4dd2d47736886e83098ae44d312e6f33\transformed\media-1.0.0\res
+com.mbadevelopers.chatapp-lifecycle-process-2.6.2-16 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\4fc06907a187bf308cb4dfeb5af0087a\transformed\lifecycle-process-2.6.2\res
+com.mbadevelopers.chatapp-sqlite-2.3.1-17 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\537deb872fcdc54edefdf528d0244c06\transformed\sqlite-2.3.1\res
+com.mbadevelopers.chatapp-photoview-dialog-1.0.1-18 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5a5944d6d695e84e46efcf93b014f5fd\transformed\photoview-dialog-1.0.1\res
+com.mbadevelopers.chatapp-savedstate-ktx-1.2.1-19 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5b1ba3c2f5d12b83ab922a29ed2ec7cc\transformed\savedstate-ktx-1.2.1\res
+com.mbadevelopers.chatapp-lifecycle-service-2.6.2-20 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5ce0a9b30f6a57b46ee6744694781581\transformed\lifecycle-service-2.6.2\res
+com.mbadevelopers.chatapp-sdp-android-1.1.0-21 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\5eb939d96836ee52b1156079af126740\transformed\sdp-android-1.1.0\res
+com.mbadevelopers.chatapp-customview-poolingcontainer-1.0.0-22 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\60a79183eb611383f51f7eaf5351b9dd\transformed\customview-poolingcontainer-1.0.0\res
+com.mbadevelopers.chatapp-viewpager2-1.1.0-beta02-23 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\6b577a2740cd9482253806cb7247df41\transformed\viewpager2-1.1.0-beta02\res
+com.mbadevelopers.chatapp-constraintlayout-2.1.4-24 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\71d183fdfea08d56fbea0ba939082c00\transformed\constraintlayout-2.1.4\res
+com.mbadevelopers.chatapp-material-1.12.0-25 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7278e1d4903f2100671655793ea50136\transformed\material-1.12.0\res
+com.mbadevelopers.chatapp-cardview-1.0.0-26 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\73a32e75c4e2596704436e443529a052\transformed\cardview-1.0.0\res
+com.mbadevelopers.chatapp-appcompat-resources-1.7.0-27 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7476c2b2e4c479fe19f07f531198d115\transformed\appcompat-resources-1.7.0\res
+com.mbadevelopers.chatapp-transition-1.5.0-28 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\7920dfc072a21e8ebfe56e2d8348cc45\transformed\transition-1.5.0\res
+com.mbadevelopers.chatapp-startup-runtime-1.1.1-29 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\847437d8139de7ee0ff9c119cb50ff2a\transformed\startup-runtime-1.1.1\res
+com.mbadevelopers.chatapp-coil-base-2.4.0-30 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\863ea53f4ef7f146223ed71777e369d6\transformed\coil-base-2.4.0\res
+com.mbadevelopers.chatapp-stream-android-push-permissions-snackbar-1.1.8-31 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8748d8711359ce4190ade7aed5d6eed6\transformed\stream-android-push-permissions-snackbar-1.1.8\res
+com.mbadevelopers.chatapp-lifecycle-viewmodel-2.6.2-32 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8b555c9313f5413054858ce2fc2bbdf3\transformed\lifecycle-viewmodel-2.6.2\res
+com.mbadevelopers.chatapp-stream-chat-android-client-6.4.3-33 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\8bd2334b1a85208516b5a322dc7fbd8b\transformed\stream-chat-android-client-6.4.3\res
+com.mbadevelopers.chatapp-core-runtime-2.2.0-34 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\969c328b98d341b3cdeb6d395dd3ba87\transformed\core-runtime-2.2.0\res
+com.mbadevelopers.chatapp-stream-chat-android-ui-components-6.4.3-35 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9929bd3f2633b4f5ede1b3043bfa903d\transformed\stream-chat-android-ui-components-6.4.3\res
+com.mbadevelopers.chatapp-room-runtime-2.5.2-36 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9ca9946a839ca2238dbc51c3ac82fb4b\transformed\room-runtime-2.5.2\res
+com.mbadevelopers.chatapp-lifecycle-runtime-2.6.2-37 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e4d77d8859e229a83647e4bdf3f67cd\transformed\lifecycle-runtime-2.6.2\res
+com.mbadevelopers.chatapp-room-ktx-2.5.2-38 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e7db568ece565bdf1fc1362a133a610\transformed\room-ktx-2.5.2\res
+com.mbadevelopers.chatapp-lifecycle-viewmodel-savedstate-2.6.2-39 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9e9b6e980a47d9a9bbde1d12b6b5514f\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.mbadevelopers.chatapp-profileinstaller-1.3.1-40 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\9f3a19c8e08158b4d520bd069116c68c\transformed\profileinstaller-1.3.1\res
+com.mbadevelopers.chatapp-lifecycle-livedata-core-2.6.2-41 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\a17770b4db450187f968e50f2b1c3ece\transformed\lifecycle-livedata-core-2.6.2\res
+com.mbadevelopers.chatapp-databinding-adapters-8.5.0-42 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\abb5f5648288a14112f05a00c8ac5101\transformed\databinding-adapters-8.5.0\res
+com.mbadevelopers.chatapp-fragment-1.6.1-43 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ae2b7897e1397dca0a397e74ec2fd361\transformed\fragment-1.6.1\res
+com.mbadevelopers.chatapp-ssp-android-1.1.0-44 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\af29bcdaa233c58920417d5268f2cce2\transformed\ssp-android-1.1.0\res
+com.mbadevelopers.chatapp-stream-android-push-permissions-1.1.8-45 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\b4810959d497f0cb08d90551f133e7c9\transformed\stream-android-push-permissions-1.1.8\res
+com.mbadevelopers.chatapp-activity-1.9.1-46 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ba24b833f8b8bedda1521388e1eb69f6\transformed\activity-1.9.1\res
+com.mbadevelopers.chatapp-databinding-runtime-8.5.0-47 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bb7992abaad376ca386e297b7a055b76\transformed\databinding-runtime-8.5.0\res
+com.mbadevelopers.chatapp-lifecycle-viewmodel-ktx-2.6.2-48 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\bfa07a2595b6fe1b01d24843d985f467\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.mbadevelopers.chatapp-lifecycle-livedata-core-ktx-2.6.2-49 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\c5e83e93f4c68e99bab62cbea88df1ca\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.mbadevelopers.chatapp-drawerlayout-1.1.1-50 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\cc293015ddc92fcc1e189ee6d7a18e00\transformed\drawerlayout-1.1.1\res
+com.mbadevelopers.chatapp-work-runtime-ktx-2.8.1-51 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\ce22902f306ead73ccd2b2f25675f5c6\transformed\work-runtime-ktx-2.8.1\res
+com.mbadevelopers.chatapp-annotation-experimental-1.4.0-52 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\d22b0d8cca22f4f6a06693d07f65135f\transformed\annotation-experimental-1.4.0\res
+com.mbadevelopers.chatapp-stream-chat-android-ui-common-6.4.3-53 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\dea07ee8c5174152d3c2e2710e56499f\transformed\stream-chat-android-ui-common-6.4.3\res
+com.mbadevelopers.chatapp-emoji2-views-helper-1.3.0-54 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e4da349d8cc565a965b1bb6edac451c0\transformed\emoji2-views-helper-1.3.0\res
+com.mbadevelopers.chatapp-lifecycle-livedata-2.6.2-55 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\e88ee2c32be260234c9aa583d8f7e984\transformed\lifecycle-livedata-2.6.2\res
+com.mbadevelopers.chatapp-permissionx-1.7.1-56 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f5399934b7de70f998109ca859aa5454\transformed\permissionx-1.7.1\res
+com.mbadevelopers.chatapp-activity-ktx-1.9.1-57 C:\Users\Bala Vignessh\AppData\Local\Android\Sdk\caches\transforms-4\f823fb3b1a1d02da61c78ff9b6ee867c\transformed\activity-ktx-1.9.1\res
+com.mbadevelopers.chatapp-pngs-58 D:\Bala\ChatApp\app\build\generated\res\pngs\debug
+com.mbadevelopers.chatapp-resValues-59 D:\Bala\ChatApp\app\build\generated\res\resValues\debug
+com.mbadevelopers.chatapp-packageDebugResources-60 D:\Bala\ChatApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.mbadevelopers.chatapp-packageDebugResources-61 D:\Bala\ChatApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.mbadevelopers.chatapp-debug-62 D:\Bala\ChatApp\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.mbadevelopers.chatapp-debug-63 D:\Bala\ChatApp\app\src\debug\res
+com.mbadevelopers.chatapp-main-64 D:\Bala\ChatApp\app\src\main\res

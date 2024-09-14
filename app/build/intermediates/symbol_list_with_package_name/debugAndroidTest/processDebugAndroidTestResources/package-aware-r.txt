@@ -1,0 +1,3 @@
+com.mbadevelopers.chatapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
